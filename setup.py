@@ -5,7 +5,7 @@ from setuptools import setup
 
 def find_stub_files():
     result = []
-    for root, dirs, files in os.walk("sqlalchemy-stubs"):
+    for root, dirs, files in os.walk("sqlalchemy"):
         for file in files:
             if file.endswith(".pyi"):
                 if os.path.sep in root:
@@ -16,6 +16,6 @@ def find_stub_files():
 
 
 setup(
-    packages=["sqlalchemy-stubs"],
-    package_data={"sqlalchemy-stubs": find_stub_files()},
+    packages=["sqlalchemy"],
+    package_data={"sqlalchemy": find_stub_files()},
 )
