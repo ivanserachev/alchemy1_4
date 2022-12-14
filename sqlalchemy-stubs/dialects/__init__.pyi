@@ -1,4 +1,5 @@
 # Names in __all__ with no definition:
+#   clickhouse
 #   firebird
 #   mssql
 #   mysql
@@ -6,4 +7,4 @@
 #   postgresql
 #   sqlite
 #   sybase
-#   clickhouse
+
