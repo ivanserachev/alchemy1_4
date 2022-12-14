@@ -6,3 +6,4 @@
 #   postgresql
 #   sqlite
 #   sybase
+#   clickhouse
